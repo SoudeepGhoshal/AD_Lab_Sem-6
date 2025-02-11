@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7071432e-79ea-428c-9dd2-f2ba08717d4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/AD(L)_6th Sem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2q7aR8g3WRW8b5rQYfXFSJW8JXR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Diabetes_Gradient Descent_Batch.executor": "Run",
+    "Python.Diabetes_Gradient Descent_Mini-Batch.executor": "Run",
+    "Python.Diabetes_Gradient Descent_Stochastic.executor": "Run",
+    "Python.Diabetes_MLR.executor": "Run",
+    "Python.Gradient Descent_Batch.executor": "Run",
+    "Python.Gradient Descent_Mini-Batch.executor": "Run",
+    "Python.Gradient Descent_Stochastic.executor": "Run",
+    "Python.Iris_MLR.executor": "Run",
+    "Python.Iris_kNN.executor": "Run",
+    "Python.Prog.executor": "Run",
+    "Python.compare.executor": "Run",
+    "Python.decision_tree_iris.executor": "Run",
+    "Python.dectree_diabetes.executor": "Run",
+    "Python.dectree_vertebral.executor": "Run",
+    "Python.kNN_diabetes.executor": "Run",
+    "Python.kNN_vertebral.executor": "Run",
+    "Python.minibatchgd_diabetes.executor": "Run",
+    "Python.minibatchgd_vertebral.executor": "Run",
+    "Python.mlr_vertebral.executor": "Run",
+    "Python.model_comparison_diabetes.executor": "Run",
+    "Python.model_comparsion_vertebral.executor": "Run",
+    "Python.naive_bayes_classifier.executor": "Run",
+    "Python.naive_bayes_classifier_iris.executor": "Run",
+    "Python.naivebayes_diabetes.executor": "Run",
+    "Python.naivebayes_vertebral.executor": "Run",
+    "Python.svm_diabetes.executor": "Run",
+    "Python.svm_parkinsons.executor": "Run",
+    "Python.svm_vertebral.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/soude/OneDrive/Documents/PycharmProjects/AI(L)_6th Sem",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\soude\OneDrive\Documents\PycharmProjects\AD(L)_6th Sem\Week 7\dataset" />
+      <recent name="C:\Users\soude\OneDrive\Documents\PycharmProjects\AD(L)_6th Sem\Week 5" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7071432e-79ea-428c-9dd2-f2ba08717d4f" name="Changes" comment="" />
+      <created>1734016057669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734016057669</updated>
+    </task>
+    <servers />
+  </component>
+</project>
