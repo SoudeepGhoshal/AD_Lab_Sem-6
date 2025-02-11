@@ -18,7 +18,7 @@
 ## How to Use  
 1. Clone the repo:  
    ```bash  
-   git clone https://github.com/your-username/machine-learning-basics.git
+   git clone https://github.com/SoudeepGhoshal/machine-learning-basics.git
 
 ---
 
