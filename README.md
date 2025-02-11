@@ -20,6 +20,8 @@
    ```bash  
    git clone https://github.com/your-username/machine-learning-basics.git
 
+---
+
 ## Dependencies
 - Python 3.x
 - **Libraries**: NumPy, Pandas, Scikit-learn, Matplotlib
