@@ -11,7 +11,8 @@
 - **Week 4**: Gradient Descent  
 - **Week 5**: k-Nearest Neighbors (kNN) Classifier  
 - **Week 6**: Decision Tree | Naive Bayes Classifier  
-- **Week 7**: Support Vector Machine (SVM)  
+- **Week 7**: Support Vector Machine (SVM)
+- **Week 8**: Multi Layer Perceptron
 
 ---
 

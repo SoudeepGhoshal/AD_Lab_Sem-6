@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7071432e-79ea-428c-9dd2-f2ba08717d4f" name="Changes" comment="Added files">
-      <change afterPath="$PROJECT_DIR$/Week 8/MLP_Iris.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,44 +44,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Diabetes_Gradient Descent_Batch.executor": "Run",
-    "Python.Diabetes_Gradient Descent_Mini-Batch.executor": "Run",
-    "Python.Diabetes_Gradient Descent_Stochastic.executor": "Run",
-    "Python.Diabetes_MLR.executor": "Run",
-    "Python.Gradient Descent_Batch.executor": "Run",
-    "Python.Gradient Descent_Mini-Batch.executor": "Run",
-    "Python.Gradient Descent_Stochastic.executor": "Run",
-    "Python.Iris_MLR.executor": "Run",
-    "Python.Iris_kNN.executor": "Run",
-    "Python.MLP_Iris.executor": "Run",
-    "Python.Prog.executor": "Run",
-    "Python.compare.executor": "Run",
-    "Python.decision_tree_iris.executor": "Run",
-    "Python.dectree_diabetes.executor": "Run",
-    "Python.dectree_vertebral.executor": "Run",
-    "Python.kNN_diabetes.executor": "Run",
-    "Python.kNN_vertebral.executor": "Run",
-    "Python.minibatchgd_diabetes.executor": "Run",
-    "Python.minibatchgd_vertebral.executor": "Run",
-    "Python.mlr_vertebral.executor": "Run",
-    "Python.model_comparison_diabetes.executor": "Run",
-    "Python.model_comparsion_vertebral.executor": "Run",
-    "Python.naive_bayes_classifier.executor": "Run",
-    "Python.naive_bayes_classifier_iris.executor": "Run",
-    "Python.naivebayes_diabetes.executor": "Run",
-    "Python.naivebayes_vertebral.executor": "Run",
-    "Python.svm_diabetes.executor": "Run",
-    "Python.svm_parkinsons.executor": "Run",
-    "Python.svm_vertebral.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/soude/OneDrive/Documents/PycharmProjects/AI(L)_6th Sem",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Diabetes_Gradient Descent_Batch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Diabetes_Gradient Descent_Mini-Batch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Diabetes_Gradient Descent_Stochastic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Diabetes_MLR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gradient Descent_Batch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gradient Descent_Mini-Batch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gradient Descent_Stochastic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Iris_MLR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Iris_kNN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MLP_Iris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.compare.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decision_tree_iris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dectree_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dectree_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kNN_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kNN_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.minibatchgd_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.minibatchgd_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mlr_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_comparison_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_comparsion_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naive_bayes_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naive_bayes_classifier_iris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naivebayes_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naivebayes_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.svm_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.svm_parkinsons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.svm_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/soude/OneDrive/Documents/PycharmProjects/AI(L)_6th Sem&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\soude\OneDrive\Documents\PycharmProjects\AD(L)_6th Sem\Week 7\dataset" />
