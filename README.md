@@ -1,10 +1,11 @@
-# Machine Learning Basics  
-**Semester 6 | Application Development (AD) Lab | Pre-Midsem Portion**  
+# Application Development (AD) Lab 
+**Semester 6 | Machine Learning Basics | Web Development Basics**  
 
 ---
 
 ## Weekly Topics  
 
+### **Machine Learning Phase**
 - **Week 1**: Data Preprocessing  
 - **Week 2**: Linear Regression  
 - **Week 3**: Multiple Linear Regression  
@@ -13,6 +14,9 @@
 - **Week 6**: Decision Tree | Naive Bayes Classifier  
 - **Week 7**: Support Vector Machine (SVM)
 - **Week 8**: Multi Layer Perceptron
+
+### **Web Development Phase**  
+- **Week 9**: Introduction to HTML & CSS
 
 ---
 

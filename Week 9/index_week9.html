@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Display</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            width: 90%;
+            margin: auto;
+        }
+        .left-box {
+            width: 60%;
+        }
+        .pattern-box, .equation-box {
+            border: 2px solid black;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: inline-block;
+            width: 80%;
+            text-align: center;
+        }
+        .right-box {
+            width: 35%;
+            border: 2px solid black;
+            padding: 15px;
+            text-align: left;
+        }
+        pre {
+            font-family: monospace;
+            font-size: 18px;
+        }
+        .equation {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .frame-container {
+            margin-top: 30px;
+            border: 2px solid black;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px;
+        }
+        .table-container {
+            margin-top: 30px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 2px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        #content-pane {
+            margin-top: 15px;
+            border: 2px solid black;
+            padding: 15px;
+            min-height: 150px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Application Development Lab 9</h2>
+
+    <div class="container">
+        <div class="left-box">
+            <div class="pattern-box">
+                <h3>Diamond Pattern</h3>
+                <pre id="pattern"></pre>
+            </div>
+
+            <div class="equation-box">
+                <h3>Mathematical Equation</h3>
+                <p class="equation">(x + y)<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup> + 2xy</p>
+            </div>
+        </div>
+
+        <div class="right-box">
+            <h3>Grocery Shop List</h3>
+            <ul>
+                <li>Fruits
+                    <ol>
+                        <li>Apple</li>
+                        <li>Banana</li>
+                        <li>Grapes</li>
+                    </ol>
+                </li>
+                <li>Vegetables
+                    <ol>
+                        <li>Carrot</li>
+                        <li>Potato</li>
+                        <li>Tomato</li>
+                    </ol>
+                </li>
+                <li>Dairy Products
+                    <ol>
+                        <li>Milk</li>
+                        <li>Cheese</li>
+                        <li>Butter</li>
+                    </ol>
+                </li>
+                <li>Snacks
+                    <ol>
+                        <li>Chips</li>
+                        <li>Biscuits</li>
+                        <li>Namkeen</li>
+                    </ol>
+                </li>
+                <li>Beverages
+                    <ol>
+                        <li>Tea</li>
+                        <li>Coffee</li>
+                        <li>Juice</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="frame-container">
+        <h3>Course Information</h3>
+        <table width="100%">
+            <tr>
+                <td width="30%" valign="top">
+                    <ul>
+                        <li><a href="#" onclick="loadContent('about')">About Us</a></li>
+                        <li><a href="#" onclick="loadContent('c')">Course 1: C</a></li>
+                        <li><a href="#" onclick="loadContent('cpp')">Course 2: C++</a></li>
+                        <li><a href="#" onclick="loadContent('java')">Course 3: Java</a></li>
+                        <li><a href="#" onclick="loadContent('python')">Course 4: Python</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <div id="content-pane">Click a course to display details.</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="table-container">
+        <h3>Internship Data</h3>
+        <table width="100%">
+            <tr>
+                <th colspan="2">Organization Logo</th>
+                <th colspan="7">Internship Data</th>
+            </tr>
+            <tr>
+                <th>S.No.</th>
+                <th>Candidate Name</th>
+                <th>DOB</th>
+                <th>Job Code</th>
+                <th>Job Title</th>
+                <th>Date of Joining</th>
+                <th>Duration</th>
+                <th>Stipend</th>
+                <th>Qualification</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>2000-05-12</td>
+                <td>101</td>
+                <td>Software Intern</td>
+                <td>2024-01-10</td>
+                <td>6 Months</td>
+                <td>$500</td>
+                <td>B.Tech CSE</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>2001-08-20</td>
+                <td>102</td>
+                <td>Data Analyst Intern</td>
+                <td>2024-02-01</td>
+                <td>3 Months</td>
+                <td>$400</td>
+                <td>B.Sc. Statistics</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Michael Brown</td>
+                <td>1999-12-15</td>
+                <td>103</td>
+                <td>Web Developer Intern</td>
+                <td>2024-03-05</td>
+                <td>4 Months</td>
+                <td>$450</td>
+                <td>BCA</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sarah Wilson</td>
+                <td>2002-02-10</td>
+                <td>104</td>
+                <td>AI/ML Intern</td>
+                <td>2024-01-15</td>
+                <td>5 Months</td>
+                <td>$550</td>
+                <td>B.Tech AI/ML</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>David Johnson</td>
+                <td>2000-07-25</td>
+                <td>105</td>
+                <td>Cybersecurity Intern</td>
+                <td>2024-02-20</td>
+                <td>6 Months</td>
+                <td>$600</td>
+                <td>M.Tech Cybersecurity</td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function generateDiamond(rows) {
+            let pattern = "";
+            let n = Math.floor(rows / 2);
+
+            for (let i = 0; i <= n; i++) {
+                pattern += " ".repeat(n) + "* ".repeat(i * 2 + 1) + "\n";
+            }
+            for (let i = n - 1; i >= 0; i--) {
+                pattern += " ".repeat(n) + "* ".repeat(i * 2 + 1) + "\n";
+            }
+
+            return pattern;
+        }
+
+        document.getElementById("pattern").textContent = generateDiamond(7);
+    </script>
+
+    <script>
+        function loadContent(page) {
+            const content = {
+                "about": "<h2>About Us</h2><p>Welcome to our online learning platform! We offer high-quality programming courses to help students and professionals enhance their skills.</p>",
+                "c": "<h2>Course 1: C Programming</h2><p>The C programming language is the foundation of modern software development. It is widely used in system programming, embedded systems, and game development.</p>",
+                "cpp": "<h2>Course 2: C++ Programming</h2><p>C++ is an extension of C with object-oriented features. It is used in high-performance applications such as game engines, financial systems, and real-time simulations.</p>",
+                "java": "<h2>Course 3: Java Programming</h2><p>Java is a versatile and platform-independent language used for enterprise applications, mobile development (Android), and web applications.</p>",
+                "python": "<h2>Course 4: Python Programming</h2><p>Python is a beginner-friendly and powerful language widely used in web development, data science, AI, and automation.</p>"
+            };
+
+            document.getElementById("content-pane").innerHTML = content[page];
+        }
+    </script>
+
+</body>
+</html>
