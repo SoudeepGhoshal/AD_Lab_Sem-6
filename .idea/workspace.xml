@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7071432e-79ea-428c-9dd2-f2ba08717d4f" name="Changes" comment="Updated Week 8">
-      <change afterPath="$PROJECT_DIR$/Soudeep Ghoshal_2205421_CSE37_Week 9.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 9/index_week9.html" afterDir="false" />
+    <list default="true" id="7071432e-79ea-428c-9dd2-f2ba08717d4f" name="Changes" comment="Added Week 9 content">
+      <change afterPath="$PROJECT_DIR$/Week 10/problem1/Layout1_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem1/layout1_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem1/layout1_c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem2/pfp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 10/problem2/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,48 +55,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Diabetes_Gradient Descent_Batch.executor": "Run",
-    "Python.Diabetes_Gradient Descent_Mini-Batch.executor": "Run",
-    "Python.Diabetes_Gradient Descent_Stochastic.executor": "Run",
-    "Python.Diabetes_MLR.executor": "Run",
-    "Python.Gradient Descent_Batch.executor": "Run",
-    "Python.Gradient Descent_Mini-Batch.executor": "Run",
-    "Python.Gradient Descent_Stochastic.executor": "Run",
-    "Python.Iris_MLR.executor": "Run",
-    "Python.Iris_kNN.executor": "Run",
-    "Python.MLP_Iris.executor": "Run",
-    "Python.Prog.executor": "Run",
-    "Python.compare.executor": "Run",
-    "Python.decision_tree_iris.executor": "Run",
-    "Python.dectree_diabetes.executor": "Run",
-    "Python.dectree_vertebral.executor": "Run",
-    "Python.kNN_diabetes.executor": "Run",
-    "Python.kNN_vertebral.executor": "Run",
-    "Python.minibatchgd_diabetes.executor": "Run",
-    "Python.minibatchgd_vertebral.executor": "Run",
-    "Python.mlr_vertebral.executor": "Run",
-    "Python.model_comparison_diabetes.executor": "Run",
-    "Python.model_comparison_iris.executor": "Run",
-    "Python.model_comparsion_vertebral.executor": "Run",
-    "Python.naive_bayes_classifier.executor": "Run",
-    "Python.naive_bayes_classifier_iris.executor": "Run",
-    "Python.naivebayes_diabetes.executor": "Run",
-    "Python.naivebayes_vertebral.executor": "Run",
-    "Python.svm_diabetes.executor": "Run",
-    "Python.svm_parkinsons.executor": "Run",
-    "Python.svm_vertebral.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/soude/OneDrive/Documents/PycharmProjects/AI(L)_6th Sem",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Diabetes_Gradient Descent_Batch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Diabetes_Gradient Descent_Mini-Batch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Diabetes_Gradient Descent_Stochastic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Diabetes_MLR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gradient Descent_Batch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gradient Descent_Mini-Batch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gradient Descent_Stochastic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Iris_MLR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Iris_kNN.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MLP_Iris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.compare.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decision_tree_iris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dectree_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dectree_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kNN_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kNN_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.minibatchgd_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.minibatchgd_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mlr_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_comparison_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_comparison_iris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_comparsion_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naive_bayes_classifier.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naive_bayes_classifier_iris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naivebayes_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.naivebayes_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;Python.svm_diabetes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.svm_parkinsons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.svm_vertebral.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/soude/OneDrive/Documents/PycharmProjects/AI(L)_6th Sem&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\soude\OneDrive\Documents\PycharmProjects\AD(L)_6th Sem\Week 10\problem2" />
+      <recent name="C:\Users\soude\OneDrive\Documents\PycharmProjects\AD(L)_6th Sem\Week 10\problem1" />
+      <recent name="C:\Users\soude\OneDrive\Documents\PycharmProjects\AD(L)_6th Sem\Week 10" />
       <recent name="C:\Users\soude\OneDrive\Documents\PycharmProjects\AD(L)_6th Sem\Week 7\dataset" />
       <recent name="C:\Users\soude\OneDrive\Documents\PycharmProjects\AD(L)_6th Sem\Week 5" />
     </key>
@@ -149,13 +160,22 @@
       <option name="project" value="LOCAL" />
       <updated>1739908534333</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Week 9 content">
+      <option name="closed" value="true" />
+      <created>1739949461387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739949461387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added files" />
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Updated Week 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Week 8" />
+    <MESSAGE value="Added Week 9 content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Week 9 content" />
   </component>
 </project>
