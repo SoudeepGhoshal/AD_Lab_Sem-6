@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7071432e-79ea-428c-9dd2-f2ba08717d4f" name="Changes" comment="Added Week 9 content">
-      <change afterPath="$PROJECT_DIR$/Week 10/problem1/Layout1_a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem1/frames/frame5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem1/layout1_b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem1/layout1_c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem2/pfp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 10/problem2/styles.css" afterDir="false" />
+    <list default="true" id="7071432e-79ea-428c-9dd2-f2ba08717d4f" name="Changes" comment="Added Week 10 content">
+      <change afterPath="$PROJECT_DIR$/Soudeep Ghoshal_2205421_CSE37_Week 11.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 11/Prog1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 11/Prog2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 11/Prog3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 11/Prog4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 11/Prog5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
@@ -168,14 +164,34 @@
       <option name="project" value="LOCAL" />
       <updated>1739949461387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Week 10 content">
+      <option name="closed" value="true" />
+      <created>1741762509943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741762509944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added files" />
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Updated Week 8" />
     <MESSAGE value="Added Week 9 content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Week 9 content" />
+    <MESSAGE value="Added Week 10 content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Week 10 content" />
   </component>
 </project>

@@ -18,6 +18,7 @@
 ### **Web Development Phase**  
 - **Week 9**: Introduction to HTML & CSS
 - **Week 10**: HTML Frameset | Portfolio Webpage
+- **Week 11**: JavaScript
 
 ---
 
