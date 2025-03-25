@@ -21,25 +21,28 @@ def build_model(hidden_units=10):
     model.add(keras.layers.Dense(hidden_units, activation='relu'))
     model.add(keras.layers.Dense(3, activation='softmax'))
 
-    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer=keras.optimizers.Adam(learning_rate=0.001), loss='categorical_crossentropy', metrics=['accuracy'])
     return model
 
 def train_model(model, epochs=100, batch_size=8, validation_split=0.2):
     early_stopping = keras.callbacks.EarlyStopping(
         monitor='val_loss',
         patience=10,
-        restore_best_weights=True
+        restore_best_weights=True,
+        verbose=1
     )
 
     reduce_lr = keras.callbacks.ReduceLROnPlateau(
         monitor='val_loss',
         factor=0.1,
-        patience=5
+        patience=5,
+        verbose=1
     )
 
     best_model = keras.callbacks.ModelCheckpoint(
         'model.keras',
-        save_best_only=True
+        save_best_only=True,
+        verbose=1
     )
 
     hist = model.fit(
