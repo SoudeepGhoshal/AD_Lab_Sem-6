@@ -20,6 +20,9 @@
 - **Week 10**: HTML Frameset | Portfolio Webpage
 - **Week 11**: JavaScript
 
+### **Sessional Exam**
+- **Week 12**: Linear Regression | PCA | HTML, CSS, JS
+
 ---
 
 ## How to Use  

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+        label {
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+        <label>
+            Name:
+            <input type="text" id="name">
+            <span class="error" id="nameError"></span>
+        </label>
+
+        <label>
+            Email:
+            <input type="email" id="email">
+            <span class="error" id="emailError"></span>
+        </label>
+
+        <label>
+            Password:
+            <input type="password" id="password">
+            <span class="error" id="passwordError"></span>
+        </label>
+
+        <label>
+            Confirm Password:
+            <input type="password" id="confirmPassword">
+            <span class="error" id="confirmPasswordError"></span>
+        </label>
+
+        <label>
+            Phone Number:
+            <input type="text" id="phone">
+            <span class="error" id="phoneError"></span>
+        </label>
+
+        <label>
+            Date of Birth:
+            <input type="date" id="dob">
+            <span class="error" id="dobError"></span>
+        </label>
+
+        <label>
+            Age:
+            <input type="number" id="age" min="18" max="100">
+            <span class="error" id="ageError"></span>
+        </label>
+
+        <label>
+            Gender:
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <span class="error" id="genderError"></span>
+        </label>
+
+        <label>
+            Country:
+            <select id="country">
+                <option value="">Select a country</option>
+                <option value="USA">India</option>
+                <option value="USA">USA</option>
+                <option value="USA">France</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">UK</option>
+            </select>
+            <span class="error" id="countryError"></span>
+        </label>
+
+        <button type="button" onclick="clearForm()">Clear</button>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            let isValid = true;
+
+            // Name validation
+            const name = document.getElementById('name').value.trim();
+            if (!/^[a-zA-Z\s]+$/.test(name)) {
+                document.getElementById('nameError').textContent = "Name must contain only letters and spaces.";
+                isValid = false;
+            } else {
+                document.getElementById('nameError').textContent = "";
+            }
+
+            // Email validation
+            const email = document.getElementById('email').value.trim();
+            if (!/\S+@\S+\.\S+/.test(email)) {
+                document.getElementById('emailError').textContent = "Invalid email format.";
+                isValid = false;
+            } else {
+                document.getElementById('emailError').textContent = "";
+            }
+
+            // Password validation
+            const password = document.getElementById('password').value;
+            if (!/(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/.test(password)) {
+                document.getElementById('passwordError').textContent = "Password must be at least 8 characters with uppercase, lowercase, and a number.";
+                isValid = false;
+            } else {
+                document.getElementById('passwordError').textContent = "";
+            }
+
+            // Confirm Password validation
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            if (password !== confirmPassword) {
+                document.getElementById('confirmPasswordError').textContent = "Passwords do not match.";
+                isValid = false;
+            } else {
+                document.getElementById('confirmPasswordError').textContent = "";
+            }
+
+            // Phone Number validation
+            const phone = document.getElementById('phone').value.trim();
+            if (!/^\d{10}$/.test(phone)) {
+                document.getElementById('phoneError').textContent = "Phone number must be exactly 10 digits.";
+                isValid = false;
+            } else {
+                document.getElementById('phoneError').textContent = "";
+            }
+
+            // Date of Birth validation
+            const dob = document.getElementById('dob').value;
+            if (dob === "") {
+                document.getElementById('dobError').textContent = "Date of birth cannot be empty.";
+                isValid = false;
+            } else {
+                document.getElementById('dobError').textContent = "";
+            }
+
+            // Age validation
+            const age = document.getElementById('age').value;
+            if (age < 18 || age > 100) {
+                document.getElementById('ageError').textContent = "Age must be between 18 and 100.";
+                isValid = false;
+            } else {
+                document.getElementById('ageError').textContent = "";
+            }
+
+            // Gender validation
+            const gender = document.querySelector('input[name="gender"]:checked');
+            if (!gender) {
+                document.getElementById('genderError').textContent = "You must select a gender.";
+                isValid = false;
+            } else {
+                document.getElementById('genderError').textContent = "";
+            }
+
+            // Country validation
+            const country = document.getElementById('country').value;
+            if (country === "") {
+                document.getElementById('countryError').textContent = "You must select a country.";
+                isValid = false;
+            } else {
+                document.getElementById('countryError').textContent = "";
+            }
+
+            if (isValid) {
+                alert("Form submitted successfully!");
+            }
+        });
+
+        function clearForm() {
+            document.getElementById('registrationForm').reset();
+            const errors = document.querySelectorAll('.error');
+            errors.forEach(error => error.textContent = "");
+        }
+    </script>
+</body>
+</html>
